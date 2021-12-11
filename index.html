@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>MackBook</title>
+</head>
+
+<body>
+    <section>
+        <div class="mackbook">
+            <div class="left">
+                <img src="img.jpg" alt="">
+            </div>
+            <div class="right">
+                <h2>iMac with Apple M1 Chep</h2>
+                <p class="no-bold">Apple M1 chip with 8-core with 4 performance core and 4 effeciency core. 7-core GPU
+                    and 16-core
+                    Neural Engine 8Gb unified memory. 256GB SSD storage Two Thunderbolt/ USB 4 Ports Magic Mouse Magic
+                    Keybord US English</p>
+
+                <p>Memory</p>
+                <button id="momory">8GB unified memory</button>
+                <button id="add-memory">16GB unified memory</button>
+
+                <p>Storage</p>
+                <button id="storage">256GB SSD storage</button>
+                <button id="add-512">512GB SSD storage</button>
+                <button id="add-1T">1T SSD storage</button>
+
+                <p>Choose your Delivary option</p>
+                <button id="delivary">Friday Aug 25 Free Delivery</button>
+                <button id="quick-delivery">Friday Aug 21 Free Delivery charge $20</button>
+
+
+                <div class="calculation">
+                    <p><strong>Best Price</strong> <strong>$1299</strong></p>
+                    <hr>
+                    <p><strong>Extra Memory Cost</strong> <strong>$<span id="memory-cost">0</span></strong></p>
+                    <hr>
+                    <p><strong>Extra Storage Cost</strong> <strong>$<span id="storage-cost">0</span></strong></p>
+                    <hr>
+                    <p><strong>Delivery charge</strong> <strong>$<span id="delivery-cost">0</span></strong></p>
+                    <hr class="hr-solid">
+                    <p><strong>Total Price</strong> <strong>$<span id="sub-total">1299</span></strong></p>
+                </div>
+                <p class="no-bold">Add Promo code</p>
+                <input id="input" type="text" placeholder="Enter Your Promo Code">
+                <button class="btn-apply" id="discount">Apply</button>
+                <p id="warning"></p>
+            </div>
+
+        </div>
+        <hr class="hr-solid">
+        <h1>
+            Total: <strong> $<span id="total">1299</span></strong>
+        </h1>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
